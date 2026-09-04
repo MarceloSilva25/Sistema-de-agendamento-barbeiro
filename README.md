@@ -106,7 +106,8 @@ O projeto está sendo construído de forma incremental. Novas funcionalidades e 
 
 ### Próximas etapas
 
-* [ ] Criar classe `Profissional`
+* [X] Criar classe `Cliente`
+* [X] Criar classe `Profissional`
 * [ ] Criar classe `Servico`
 * [ ] Criar classe `Agendamento`
 * [ ] Criar `GerenciadorDeAgendamentos`
