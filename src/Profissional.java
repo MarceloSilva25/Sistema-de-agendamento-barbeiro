@@ -71,5 +71,11 @@ public class Profissional {
         this.telefone = telefoneFormatado;
     }
 
+    public void removerDiaDisponivel(String dia) {
+        if (!diasDisponiveis.contains(dia)) {
+            throw new IllegalArgumentException("O dia não está disponível para remoção.");
+        }
+        diasDisponiveis.remove(dia);
+    }
 
 }
