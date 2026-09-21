@@ -1,11 +1,11 @@
 import java.math.BigDecimal;
 
-public class Serviço {
+public class Servico {
     private String nome;
     private BigDecimal preco;
     private int duracao; // duração em minutos
 
-    public Serviço(String nome, BigDecimal preco, int duracao) {
+    public Servico(String nome, BigDecimal preco, int duracao) {
         setNome(nome);
         setPreco(preco);
         setDuracao(duracao);
