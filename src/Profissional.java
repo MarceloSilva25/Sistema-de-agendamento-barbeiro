@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class Profissional {
     private String nome;
@@ -43,6 +44,7 @@ public class Profissional {
         if (dia == null || dia.isEmpty() || !dia.matches("^(Segunda-feira|Terça-feira|Quarta-feira|Quinta-feira|Sexta-feira|Sábado|Domingo)$")) {
             throw new IllegalArgumentException("O dia não pode ser nulo ou inválido.");
         }
+        dia = dia.toLowerCase();
         if (diasDisponiveis.contains(dia)) {
             throw new IllegalArgumentException("O dia já está disponível.");
         }
