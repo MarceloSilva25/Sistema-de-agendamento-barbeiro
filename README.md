@@ -108,15 +108,15 @@ O projeto está sendo construído de forma incremental. Novas funcionalidades e 
 
 * [X] Criar classe `Cliente`
 * [X] Criar classe `Profissional`
-* [ ] Criar classe `Servico`
-* [ ] Criar classe `Agendamento`
+* [X] Criar classe `Servico`
+* [X] Criar classe `Agendamento`
 * [ ] Criar `GerenciadorDeAgendamentos`
 * [ ] Implementar regras de conflito de horários
-* [ ] Implementar criação de agendamentos
+* [X] Implementar criação de agendamentos
 * [ ] Implementar cancelamento
 * [ ] Implementar alteração de agendamentos
 * [ ] Implementar consultas de agendamentos
-* [ ] Melhorar tratamento de exceções
+* [X] Melhorar tratamento de exceções
 * [ ] Criar testes
 * [ ] Avaliar integração com banco de dados
 * [ ] Evoluir o projeto para uma API REST com Spring Boot
